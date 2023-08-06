@@ -1,78 +1,79 @@
 body {
-    background-color: #f9f7fe;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(220, 233, 249, 0.135);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    text-align: center; 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 39px;
- }
-
- 
-h2 {
-    margin: 0 0 10px;
-    font-size: 33px;
-    
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin: 0px 0px 20px;
 }
-.container  {
-    max-width: 600px;
-    margin: 60px auto;
-    background: white;
-    padding: 30px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border-radius: 10px;
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 32px;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
 }
 
 .city {
-    display: flex;
-    margin: 10px 0;
-    justify-content: space-between;
-    padding: 30px 0;
-    border-bottom: 1px dashed rgba(0,0,0,0.2);
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
 .city:last-child {
-    border: none;
+  border: none;
 }
 
-
-
 .date {
-    opacity: 0.7 ;
+  opacity: 0.7;
 }
 
 .time {
-font-size: 44px;
-font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .time small {
-    font-size: 24px;
-    vertical-align: middle;
-    line-height: 36px;
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 36px;
 }
 
 #cities {
-    color: rgb(97, 110, 121);
+  color: black;
 }
 
 #city {
-    color: rgb(97, 110, 121);
+  color: rgb(26, 56, 80, 0.7);
+  background-color: white;
+}
+
+#linkedin {
+  text-decoration: none;
+  color: rgb(41, 77, 120);
 }
 
 select {
-    display: block;
-    width: 100%;
-    border-radius: 4px;
-    padding: 10px;
-    font-size: 18px;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 18px;
 }
 
-
-
 footer {
-    text-align: center;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 16px;
+  margin: -20px 0px 50px;
 }
